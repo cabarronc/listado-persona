@@ -1,0 +1,47 @@
+<!-- <form class="row g-3">
+    <div class="form-group col-md-2">
+      <label for="nombre" class="visually-hidden">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-control"
+        [(ngModel)]="NombreInput" />
+    </div>
+    <div class="form-group col-md-2">
+      <label for="apellido" class="visually-hidden">Apellido: </label>
+      <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="form-control"
+        [(ngModel)]="ApellidoInput" />
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary" (click)="agregar_persona()">Agregar</button>
+    </div>
+  </form> -->
+  <!-- Referencia Local
+  <form class="row g-3">
+    <div class="form-group col-md-2">
+      <label for="nombre" class="visually-hidden">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-control"
+      #nombreInputRef  />
+    </div>
+    <div class="form-group col-md-2">
+      <label for="apellido" class="visually-hidden">Apellido: </label>
+      <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="form-control"
+     #apellidoInputRef/>
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary" (click)="agregar_persona(nombreInputRef,apellidoInputRef)">Agregar</button>
+    </div>
+  </form> -->
+  <!-- Referencia Local + ViewChild -->
+  <form class="row g-3">
+    <div class="form-group col-md-2">
+      <label for="nombre" class="visually-hidden">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-control"
+      #nombreInputChild  />
+    </div>
+    <div class="form-group col-md-2">
+      <label for="apellido" class="visually-hidden">Apellido: </label>
+      <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="form-control"
+     #apellidoInputChild/>
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary" (click)="agregar_persona_child()">Agregar</button>
+    </div>
+  </form>
