@@ -9,7 +9,7 @@ import { PersonasServices } from './personas.services';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  titulo = 'listado de persona';
+  titulo = 'Programas Presupuestales';
   // personas: Persona[] = [new Persona("Carlos Alberto","Barron Castro")
   //                       ];
   personas: Persona[] = [];
